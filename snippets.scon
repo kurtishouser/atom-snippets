@@ -1,0 +1,16 @@
+# My person ATOM snippets
+
+'.source.js':
+  'getElementByID.innerHTML':
+    'prefix': 'dgi'
+    'body': 'document.getElementById(\'$1\').innerHTML = $2;'
+  'getElementById.value;':
+    'prefix': 'dgv'
+    'body': 'document.getElementById(\'$1\').value;'
+  'getElementByID.addEventListener':
+    'prefix': 'dga'
+    'body': """
+        document.getElementById(\'$1\').addEventListener(\'click$2'\, function() {
+            $3
+        });
+    """
